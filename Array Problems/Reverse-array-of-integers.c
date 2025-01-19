@@ -20,13 +20,11 @@ void printarray(int arr[], int len) {
 int main() {
   int len;
 
-  // Prompt user to enter the size of the array
   printf("Enter the number of elements in the array: ");
   scanf("%d", &len);
 
   int arr[len];
 
-  // Take array input from the user
   printf("Enter %d elements: ", len);
   for (int i = 0; i < len; i++) {
     scanf("%d", &arr[i]);
